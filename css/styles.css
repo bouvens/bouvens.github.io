@@ -1,6 +1,6 @@
 html {
-    font-family: 'Fira Mono', monospace;
-    font-size: 1.3em;
+  font-family: 'Fira Mono', monospace;
+  font-size: 1.3em;
 }
 
 h1,
@@ -9,67 +9,67 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Vollkorn", Palatino, Times, serif;
-    font-weight: normal;
-    margin-bottom: 0;
+  font-family: "Vollkorn", Palatino, Times, serif;
+  font-weight: normal;
+  margin-bottom: 0;
 }
 
 h1 {
-    font-size: 3.5em;
-    margin: .67em 0;
-    line-height: 1;
-    text-align: center;
+  font-size: 3.5em;
+  margin: .67em 0;
+  line-height: 1;
+  text-align: center;
 }
 
 h2 {
-    display: inline;
+  display: inline;
 }
 
 small {
-    font-size: 0.5em;
+  font-size: 0.5em;
 }
 
 p {
-    font-size: .9em;
-    margin-top: 0;
+  font-size: .9em;
+  margin-top: 0;
 }
 
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 header {
-    margin-bottom: 4em;
+  margin-bottom: 4em;
 }
 
 article {
-    margin-bottom: 3em;
+  margin-bottom: 3em;
 }
 
 .list {
-    margin: 0 auto;
-    max-width: 42rem;
+  margin: 0 auto;
+  max-width: 42rem;
 }
 
 .screen-shot {
-    display: inline-block;
-    border: 5px dotted #007200;
-    padding: 8px;
+  display: inline-block;
+  border: 5px dotted #007200;
+  padding: 8px;
 }
 
 .screen-shot img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .screen-shot:hover {
-    border-color: #00c200;
+  border-color: #00c200;
 }
 
 .screen-shot img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
