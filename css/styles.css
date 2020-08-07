@@ -1,6 +1,16 @@
 html {
   font-family: 'Fira Mono', monospace;
-  font-size: 1.3em;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+body {
+  margin: 0;
 }
 
 h1,
@@ -15,23 +25,22 @@ h6 {
 }
 
 h1 {
-  font-size: 3.5em;
-  margin: .67em 0;
+  font-size: 4rem;
+  margin: 0;
   line-height: 1;
   text-align: center;
 }
 
 h2 {
-  display: inline;
+  font-size: 1.8rem;
 }
 
 small {
-  font-size: 0.5em;
+  font-size: .5em;
 }
 
 p {
-  font-size: .9em;
-  margin-top: 0;
+  line-height: 1.5;
 }
 
 
@@ -44,15 +53,16 @@ a:hover {
 }
 
 header {
-  margin-bottom: 4em;
+  margin: 4rem 0 2.5rem;
 }
 
 article {
-  margin-bottom: 3em;
+  margin-bottom: 3rem;
 }
 
 .list {
   margin: 0 auto;
+  padding: 0 5%;
   max-width: 42rem;
 }
 
