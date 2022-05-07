@@ -22,12 +22,12 @@ h6 {
   font-family: "Vollkorn", Palatino, Times, serif;
   font-weight: normal;
   margin-bottom: 0;
+  line-height: 1;
 }
 
 h1 {
   font-size: 4rem;
   margin: 0;
-  line-height: 1;
   text-align: center;
 }
 
@@ -45,6 +45,7 @@ small {
 
 p {
   line-height: 1.5;
+  margin: 0.35rem 0 0.7rem;
 }
 
 
@@ -71,6 +72,7 @@ article {
 }
 
 .screen-shot {
+  margin-top: 1.1rem;
   display: inline-block;
   border: 5px dotted #007200;
   padding: 8px;
