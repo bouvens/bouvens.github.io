@@ -22,7 +22,7 @@ h6 {
   font-family: "Vollkorn", Palatino, Times, serif;
   font-weight: normal;
   margin-bottom: 0;
-  line-height: 1;
+  line-height: .8;
 }
 
 h1 {
@@ -43,9 +43,17 @@ small {
   font-size: .5em;
 }
 
+.social-block {
+  margin: .9rem 0 .8rem;
+}
+
+.social-block img {
+  height: 1.5rem;
+}
+
 p {
   line-height: 1.5;
-  margin: 0.35rem 0 0.7rem;
+  margin: .35rem 0 .7rem;
 }
 
 
