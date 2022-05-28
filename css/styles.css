@@ -22,13 +22,19 @@ h6 {
   font-family: "Vollkorn", Palatino, Times, serif;
   font-weight: normal;
   margin-bottom: 0;
-  line-height: .8;
+  line-height: 1.1;
 }
 
 h1 {
   font-size: 4rem;
   margin: 0;
   text-align: center;
+}
+
+h1 small {
+  display: block;
+  font-size: .5em;
+  line-height: 1.7;
 }
 
 h2 {
@@ -39,12 +45,8 @@ header {
   text-align: center;
 }
 
-small {
-  font-size: .5em;
-}
-
 .social-block {
-  margin: .9rem 0 .8rem;
+  margin: .6rem 0 .8rem;
 }
 
 .social-block img {
