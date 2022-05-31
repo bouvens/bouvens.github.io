@@ -67,8 +67,10 @@
   <meta name="twitter:image" content="https://developr.ru/images/social.gif">
 
   <link href="css/styles.css?v=1.2" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Vollkorn&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Vollkorn:ital@1&family=Montserrat:wght@700&display=swap"
       rel="stylesheet"
   >
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -79,38 +81,48 @@
 
 <body>
 
-<div class="list">
-  <header>
-    <h1>
-      JavaScript Xperiments
-      <small>of Alexander Demin</small>
-    </h1>
+<header>
+  <h1>
+    JavaScript Xperiments
+    <small>of Alex Demin</small>
+  </h1>
 
-    <section class="social-block">
-      <a href="https://t.me/codeharder"><img
-          src="/images/social/telegram.svg"
-          title="Write me in Telegram"
-          alt="Telegram"
-      ></a>
-      <a href="mailto:web@developr.ru"><img
-          src="/images/social/mail.svg"
-          title="Write me an e-mail"
-          alt="E-Mail"
-      ></a>
-      <a href="https://www.linkedin.com/in/alexander-s-demin/"><img
-          title="Find me in LinkedIn"
-          src="/images/social/linkedin.svg"
-          alt="LinkedIn"
-      ></a>
-    </section>
-  </header>
+  <section class="social-block">
+    <a href="https://twitter.com/bouvens"><img
+        src="/images/social/twitter.svg"
+        title="Write me in Telegram"
+        alt="Twitter"
+    ></a>
+    <a href="https://t.me/codeharder"><img
+        src="/images/social/telegram.svg"
+        title="Write me in Telegram"
+        alt="Telegram"
+    ></a>
+    <a href="mailto:web@developr.ru"><img
+        src="/images/social/mail.svg"
+        title="Write me an e-mail"
+        alt="E-Mail"
+    ></a>
+    <a href="https://www.linkedin.com/in/alexander-s-demin/"><img
+        title="Find me in LinkedIn"
+        src="/images/social/linkedin.svg"
+        alt="LinkedIn"
+    ></a>
+  </section>
+</header>
+
+<section class="list">
+  <p>Here're my experiments with algorithms, colors, images, and computations. Everything is open-source and
+    JavaScript.</p>
 
   <article>
-    <h2>Parallel1d</h2>
-    <p>A Helper for Parallel Computations on 1D Arrays for JavaScript</p>
+    <h2>
+      Parallel 1D
+      <small>A Helper for Parallel Computations on One-Dimensional Arrays for JavaScript</small>
+    </h2>
     <section class="links">
-      <a href="https://github.com/bouvens/parallel1d">/git</a>
       <a href="/parallel1d/">/demo</a>
+      <a href="https://github.com/bouvens/parallel1d">/git</a>
       <a href="https://www.npmjs.com/package/parallel1d">/npm</a>
     </section>
     <a class="screen-shot" href="/parallel1d/" title="goto demo;">
@@ -119,11 +131,13 @@
   </article>
 
   <article>
-    <h2>Number to Color</h2>
-    <p>A High-Performance Number to Bright Color Converter</p>
+    <h2>
+      Number to Color
+      <small>A High-Performance Number to Bright Color Converter</small>
+    </h2>
     <section class="links">
-      <a href="https://github.com/bouvens/number-to-color">/git</a>
       <a href="/number-to-color/">/demo</a>
+      <a href="https://github.com/bouvens/number-to-color">/git</a>
       <a href="https://www.npmjs.com/package/number-to-color">/npm</a>
     </section>
     <a class="screen-shot" href="/number-to-color/" title="goto demo;">
@@ -132,11 +146,13 @@
   </article>
 
   <article>
-    <h2>RGB filter</h2>
-    <p>Image Processing and GIF Generator in a Browser for Old Fashion Stylizing</p>
+    <h2>
+      RGB filter
+      <small>Image Processing and GIF Generator in a Browser for Old Fashion Stylizing</small>
+    </h2>
     <section class="links">
-      <a href="https://github.com/bouvens/rgb-filter">/git</a>
       <a href="/rgb-filter/">/demo</a>
+      <a href="https://github.com/bouvens/rgb-filter">/git</a>
     </section>
     <a class="screen-shot" href="/rgb-filter/" title="goto demo;">
       <img alt="Screen shot" src="images/rgb-filter.gif">
@@ -144,11 +160,15 @@
   </article>
 
   <article>
-    <h2>Griffeath’s machine</h2>
-    <p>Cyclic Cellular Automaton</p>
+    <h2>
+      Griffeath’s machine
+      <small>Cyclic Cellular Automaton</small>
+    </h2>
+    <p>The experiment allows switching optimization methods for calculations, including GPU-based and web
+      workers.</p>
     <section class="links">
-      <a href="https://github.com/bouvens/griffeath-machine">/git</a>
       <a href="/griffeath-machine/">/demo</a>
+      <a href="https://github.com/bouvens/griffeath-machine">/git</a>
     </section>
     <a class="screen-shot" href="/griffeath-machine/" title="goto demo;">
       <img alt="Screen shot" src="images/griffeath-machine.png">
@@ -156,11 +176,14 @@
   </article>
 
   <article>
-    <h2>Red Squares</h2>
-    <p>React-Redux Game Experiment with Support of AI Written on JS</p>
+    <h2>
+      Red Squares
+      <small>React-Redux Game Experiment with Support of AI Written on JS</small>
+    </h2>
+    <p>It's extensible and allows bots switching.</p>
     <section class="links">
-      <a href="https://github.com/bouvens/red-squares">/git</a>
       <a href="/red-squares/">/demo</a>
+      <a href="https://github.com/bouvens/red-squares">/git</a>
     </section>
     <a class="screen-shot" href="/red-squares/" title="this.start.inBrowser();">
       <img alt="Screen shot" src="images/red-squares.png">
@@ -168,11 +191,13 @@
   </article>
 
   <article>
-    <h2>State Control</h2>
-    <p>An NPM Package for Displaying and Direct Updating State for Prototypes on React</p>
+    <h2>
+      State Control
+      <small>An NPM Package for Displaying and Direct Updating State for Prototypes on React</small>
+    </h2>
     <section class="links">
-      <a href="https://github.com/bouvens/state-control">/git</a>
       <a href="/state-control/">/demo</a>
+      <a href="https://github.com/bouvens/state-control">/git</a>
       <a href="https://www.npmjs.com/package/state-control">/npm</a>
     </section>
     <a class="screen-shot" href="/state-control/" title="goto demo;">
@@ -181,17 +206,34 @@
   </article>
 
   <article>
-    <h2>Zero Packer</h2>
-    <p>Encoding Strings with Any Set of Characters</p>
+    <h2>
+      Zero Packer
+      <small>Encoding Strings with Any Set of Characters</small>
+    </h2>
     <section class="links">
-      <a href="https://github.com/bouvens/zero-packer">/git</a>
       <a href="/zero-packer/">/demo</a>
+      <a href="https://github.com/bouvens/zero-packer">/git</a>
     </section>
     <a class="screen-shot" href="/zero-packer/" title="goto demo;">
       <img alt="Screen shot" src="images/zero-packer.png">
     </a>
   </article>
-</div>
+</section>
+
+<footer>
+  <section class="list">
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+        alt="Creative Commons License"
+        style="border-width:0"
+        src="https://i.creativecommons.org/l/by/4.0/80x15.png"
+    /></a>
+    <br />Alex Demin: <a href="https://twitter.com/bouvens">Twitter</a>,
+    <a href="https://t.me/codeharder">Telegram</a>,
+    <a href="mailto:web@developr.ru">e-mail</a>,
+    <a href="https://www.linkedin.com/in/alexander-s-demin/">LinkedIn</a>,
+    <a href="https://github.com/bouvens">GitHub</a>
+  </section>
+</footer>
 
 <a href="https://github.com/bouvens">
   <img
