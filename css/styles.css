@@ -10,7 +10,7 @@ body {
 .list {
   margin: 0 auto;
   padding: 0 5%;
-  max-width: 40rem;
+  max-width: 32rem;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 }
 
 article {
-  margin-top: 3rem;
+  margin-top: 2.5rem;
 }
 
 footer {
@@ -49,6 +49,7 @@ h6 {
 
 h1 {
   font-size: 2.5rem;
+  letter-spacing: -0.1rem;
   margin: 0;
   text-align: center;
 }
@@ -64,8 +65,9 @@ h1 small {
   font-family: Vollkorn, serif;
   font-weight: normal;
   font-style: italic;
-  font-size: .5em;
-  line-height: 1.7;
+  font-size: 0.5em;
+  line-height: 1.2;
+  letter-spacing: 0.2rem;
 }
 
 h2 {
@@ -84,11 +86,11 @@ h2 small {
   font-style: italic;
   font-weight: normal;
   font-size: 1rem;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .social-block {
-  margin: .6rem 0 .8rem;
+  margin-top: 1rem;
 }
 
 .social-block img {
@@ -110,7 +112,7 @@ a:hover {
 }
 
 .links {
-  margin-top: .2rem;
+  margin-top: 0.5rem;
 }
 
 .screen-shot {
