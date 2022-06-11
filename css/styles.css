@@ -29,7 +29,7 @@ footer {
   margin-top: 4rem;
   padding: 1.3rem 0 1.5rem;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 footer a {
@@ -128,18 +128,33 @@ a:visited {
 .screen-shot {
   margin-top: 1.1rem;
   display: inline-block;
-  border: 5px dotted #007200;
-  padding: 8px;
+}
+
+.with-border {
+  border: 12px solid #fff;
+}
+
+.with-fading {
+  position: relative;
+}
+
+.with-fading:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #0000 0%, #f6f0e4 100%);
+  position: absolute;
 }
 
 .screen-shot img {
   max-width: 100%;
 }
 
-.screen-shot:hover {
-  border-color: #00c200;
-}
-
 .screen-shot img {
   vertical-align: middle;
+}
+
+.license {
+  display: inline-block;
+  margin-bottom: 0.3rem;
 }
