@@ -5,6 +5,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #f6f0e4;
 }
 
 .list {
@@ -24,7 +25,7 @@ article {
 }
 
 footer {
-  background: #ccffcc;
+  background-color: #b5dda0;
   margin-top: 4rem;
   padding: 1.3rem 0 1.5rem;
   text-align: center;
@@ -33,6 +34,10 @@ footer {
 
 footer a {
   text-decoration: underline;
+}
+
+footer a:visited {
+  color: #a219e6;
 }
 
 h1,
@@ -104,11 +109,16 @@ p {
 }
 
 a {
+  color: #3069d2;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+a:visited {
+  color: #ab30e8;
 }
 
 .links {
