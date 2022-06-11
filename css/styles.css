@@ -130,10 +130,6 @@ a:visited {
   display: inline-block;
 }
 
-.with-border {
-  border: 12px solid #fff;
-}
-
 .with-fading {
   position: relative;
 }
@@ -144,6 +140,23 @@ a:visited {
   height: 100%;
   background: linear-gradient(90deg, #0000 0%, #f6f0e4 100%);
   position: absolute;
+}
+
+@keyframes hue-rotate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.with-hue-rotate {
+  animation: 10s cubic-bezier(0.65, 0.05, 0.36, 1) infinite hue-rotate;
+}
+
+.with-border {
+  border: 12px solid #fff;
 }
 
 .screen-shot img {
