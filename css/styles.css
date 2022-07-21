@@ -32,6 +32,20 @@ article {
   margin-top: 2.5rem;
 }
 
+.year {
+  display: flex;
+  margin: 2.5rem 0 0;
+  color: #75715e;
+}
+
+.year:after {
+  content: '';
+  flex-grow: 1;
+  margin-top: 0.7em;
+  margin-left: 0.5em;
+  border-top: 1px dotted #707070;
+}
+
 footer {
   background-color: #b5dda0;
   margin-top: 4rem;
