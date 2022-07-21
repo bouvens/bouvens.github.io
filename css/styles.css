@@ -57,6 +57,7 @@ h1 {
   letter-spacing: -0.1rem;
   margin: 0;
   text-align: center;
+  line-height: 1;
 }
 
 @media (min-width: 768px) {
@@ -67,11 +68,12 @@ h1 {
 
 h1 small {
   display: block;
+  margin-top: 0.3em;
   font-family: Vollkorn, serif;
   font-weight: normal;
   font-style: italic;
   font-size: 0.5em;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.2rem;
 }
 
