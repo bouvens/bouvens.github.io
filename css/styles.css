@@ -46,6 +46,12 @@ article {
   border-top: 1px dotted #707070;
 }
 
+.dino {
+  width: 21px;
+  transform: scaleX(-1);
+  margin-left: 0.4rem;
+}
+
 footer {
   background-color: #b5dda0;
   margin-top: 4rem;
