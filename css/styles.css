@@ -60,14 +60,6 @@ footer {
   font-size: 0.9rem;
 }
 
-footer a {
-  text-decoration: underline;
-}
-
-footer a:visited {
-  color: #a219e6;
-}
-
 @media (prefers-color-scheme: dark) {
   a {
     color: #66d9ef;
