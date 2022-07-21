@@ -1,4 +1,5 @@
 html {
+  color-scheme: light dark;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
 }
@@ -6,6 +7,13 @@ html {
 body {
   margin: 0;
   background-color: #f6f0e4;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #272822;
+    color: #f8f8f2;
+  }
 }
 
 .list {
@@ -38,6 +46,22 @@ footer a {
 
 footer a:visited {
   color: #a219e6;
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #66d9ef;
+  }
+
+  a:visited,
+  footer a:visited {
+    color: #ae81ff;
+  }
+
+  footer {
+    color: #75715e;
+    background-color: #1b1c17;
+  }
 }
 
 h1,
@@ -94,6 +118,16 @@ h2 small {
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.5;
+}
+
+@media (prefers-color-scheme: dark) {
+  h1, h2 {
+    color: #a6e22e;
+  }
+
+  h1 small, h2 small {
+    color: #e6db74;
+  }
 }
 
 .social-block {
