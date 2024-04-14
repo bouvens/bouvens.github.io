@@ -191,6 +191,10 @@ article {
   margin-left: 0.4rem;
 }
 
+.shooting {
+  cursor: crosshair;
+}
+
 footer {
   background-color: #b5dda0;
   margin-top: 4rem;
